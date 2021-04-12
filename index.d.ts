@@ -81,7 +81,11 @@ declare module "webhook-discord" {
      * @param {string} value The value of the field.
      * @param {bool} inline Should the field be an inline field
      */
-    public addField(title: string, value: string, inline?: boolean): MessageBuilder;
+    public addField(
+      title: string,
+      value: string,
+      inline?: boolean
+    ): MessageBuilder;
 
     /**
      * This method adds an image to the embed.
@@ -111,11 +115,15 @@ declare module "webhook-discord" {
      * @param {string} iconURL Optional: Icon URL of the author
      * @param {string} url Optional: Link to the author
      */
-    public setAuthor(author: string, iconURL?: string, url?: string): MessageBuilder;
+    public setAuthor(
+      author: string,
+      iconURL?: string,
+      url?: string
+    ): MessageBuilder;
 
     /**
      * Set the URL for the Discord embed
-     * 
+     *
      * @param {string} url The URL to link to from the embed.
      */
     public setURL(url: string): MessageBuilder;

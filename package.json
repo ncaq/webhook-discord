@@ -2,6 +2,9 @@
   "name": "webhook-discord",
   "version": "3.7.7",
   "main": "./lib/webhook",
+  "devDependencies": {
+    "eslint": "^7.24.0"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1"
   },
@@ -26,8 +29,5 @@
   "bugs": {
     "url": "https://github.com/jb3/webhook-discord/issues"
   },
-  "homepage": "https://github.com/jb3/webhook-discord#readme",
-  "devDependencies": {
-    "eslint": "^6.8.0"
-  }
+  "homepage": "https://github.com/jb3/webhook-discord#readme"
 }
